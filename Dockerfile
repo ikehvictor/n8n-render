@@ -1,4 +1,4 @@
-FROM node:16-alpine
+FROM node:20-alpine
 RUN apk add --update graphicsmagick tzdata
 ENV NODE_ENV=production
 ENV N8N_SKIP_STATISTICS_LOGGING=true
